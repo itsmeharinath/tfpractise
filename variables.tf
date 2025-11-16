@@ -1,13 +1,13 @@
 variable "subscription_id" {
   description = "Azure Subscription ID"
-  default     = "<Update the Subscription Key"
+  default     = "<Update the Subscription ID>"
 
 }
 
 variable "rgname" {
   description = "Resource Group Name"
   type        = string
-  default     = "<Update your Resource Group Name"
+  default     = "<Update the Resource Group Name>"
 }
 
 variable "rglocation" {
@@ -70,4 +70,13 @@ variable "admin_password" {
 variable "storageaccountname" {
   default = "tfstg5"
 
+}
+variable "appserviceplan" {
+  default     = "asp-dev"
+  description = "App Service Plan Name"
+
+}
+
+variable "app_service_name" {
+  default = "webapp-hari"
 }
