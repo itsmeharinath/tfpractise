@@ -98,9 +98,6 @@ terraform destroy
 - The VM is deployed into one of the created subnets
 - Network Security Group rules should be configured based on security requirements
 
-## Contributing
-
-Feel free to submit issues or pull requests for improvements.
 
 ## License
 
